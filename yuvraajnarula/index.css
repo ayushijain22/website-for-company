@@ -15,22 +15,22 @@
     color: #fff;
   }
   .card{
-    width: 350px;
+    width: 21.875rem;
     background: linear-gradient(#ed0556 118px, #06013d 118px);
     text-align:  center;
     box-shadow: 0 0 30px  rgba(0,0,0,0.8);
   }
   img{
-    width: 118px;
-    height: 118px;
+    width: 7.375rem;
+    height: 7.375rem;
     object-fit: cover;
-    margin: 59px auto 0;
-    outline: 4px solid #fff;
+    margin: 3.6875rem auto 0;
+    outline: 0.26rem solid #fff;
     outline-offset: 10px;
   }
   .name{
     text-transform: uppercase;
-    margin-top: 40px;
+    margin-top: 2.5rem;
     font-size: 28px;
   }
   .about{
@@ -87,7 +87,7 @@
     transition: transform 0.5s,
                 opacity 1s,
                 color 0.3s,
-                background-color 0.3s;
+                background 0.3s ease;
   }
   .social-media:hover{
     background: #fff;
@@ -103,6 +103,6 @@
    transform: translateY(0);
   }
   #particles-js {
-    background: black;
+    background-color:black;
     height: 100vh;
 }
